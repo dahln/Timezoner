@@ -13,7 +13,8 @@
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) 2018 dahln</Copyright>
     <PackageTags>timezone,timezones,time,zone,zones</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>1.2.0</Version>
+    <PackageReleaseNotes>Breaking changes from 1.1.0 to 1.2.0. Fixes to class names and namespaces; wanted to make the dev experience cleaner.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
