@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>dahln</Authors>
+    <Description>A simple library to provide a list of time zones, providing an Id, Name, and Offset</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/dahln/Timezoner</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/dahln/Timezoner/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/dahln/Timezoner</RepositoryUrl>
+    <RepositoryType>GitHUb</RepositoryType>
+    <Company />
+    <NeutralLanguage>en</NeutralLanguage>
+    <Copyright>Copyright (c) 2018 dahln</Copyright>
   </PropertyGroup>
 
 </Project>
