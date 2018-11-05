@@ -8,3 +8,5 @@ GetTimezones()
 GetTimezoneById(string id)
 GetOffsetAsTimeSpan(string id)
 GetOffsetAsTimeSpan(Timezone zone)
+
+Timezoner is available on Nuget: https://www.nuget.org/packages/Timezoner/
