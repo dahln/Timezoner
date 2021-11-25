@@ -1,3 +1,5 @@
+[![.NET](https://github.com/dahln/Timezoner/actions/workflows/dotnet-nuget.yml/badge.svg)](https://github.com/dahln/Timezoner/actions/workflows/dotnet-nuget.yml)
+
 # Timezoner
 A simple library to provide a list of time zones, providing an Id, Name, and Offset.
 
