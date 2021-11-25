@@ -2,10 +2,7 @@ name: .NET
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
+     - "v[0-9]+.[0-9]+.[0-9]+-preview[0-9][0-9][0-9]"
 jobs:
   build:
 
@@ -21,4 +18,5 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    
+    - name: Push
+      run: dotnet nuget push "./__out/*.nupkg" --skip-duplicate --no-symbols true --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json
