@@ -6,7 +6,7 @@
 
 <div class="row">
     <div class="col-md-4">
-        <select class="form-control" @onchange="@((ChangeEventArgs e) => DEMOGetTimeZoneById(e.Value.ToString()))">
+        <select class="form-select" @onchange="@((ChangeEventArgs e) => DEMOGetTimeZoneById(e.Value.ToString()))">
             <option>--- Select TimeZone ---</option>
             @foreach (var timezone in TimeZones)
             {
