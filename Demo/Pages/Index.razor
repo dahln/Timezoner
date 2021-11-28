@@ -1,0 +1,55 @@
+﻿@page "/"
+
+@using Timezoner
+
+<h1>TimeZoner Demo</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <select class="form-control" @onchange="@((ChangeEventArgs e) => DEMOGetTimeZoneById(e.Value.ToString()))">
+            <option>--- Select TimeZone ---</option>
+            @foreach (var timezone in TimeZones)
+            {
+                <option value="@timezone.Id" @onselectionchange="() => DEMOGetTimeZoneById(timezone.Id)">@timezone.Name</option>
+            }
+        </select>
+    </div>
+</div>
+
+@if (SelectedZone != null)
+{
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <h5>Id: @SelectedZone.Id</h5>
+            <h5>Name: @SelectedZone.Name</h5>
+            @*Could have showed 'Offset' from 'SelectedZone', but I wanted to demo the "GetOffsetAsTimeSpan" method.*@
+            @*<h5>Offset: @SelectedZone.Offset</h5>*@
+            <h5>Offset: @Offset.ToString()</h5>
+        </div>
+    </div>
+}
+
+@code {
+
+    private List<Zone> TimeZones { get; set; } = new List<Zone>();
+    private Zone? SelectedZone { get; set; }
+    private TimeSpan Offset { get; set; }
+
+    protected override void OnInitialized()
+    {
+        TimeZones = Zoner.GetTimezones().ToList();
+    }
+
+    private void DEMOGetTimeZoneById(string id)
+    {
+        SelectedZone = Zoner.GetTimezoneById(id);
+
+        DEMOGetOffsetAsTimeSpan(id);
+    }
+
+    private void DEMOGetOffsetAsTimeSpan(string id)
+    {
+        //Use "GetOffsetAsTimeSpan" if you want to to receive the Offset as the a timeSpan, instead of a string.
+        Offset = Zoner.GetOffsetAsTimeSpan(id);
+    }
+}
