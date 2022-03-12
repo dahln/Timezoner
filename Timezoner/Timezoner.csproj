@@ -8,12 +8,12 @@
     <PackageProjectUrl></PackageProjectUrl>
     <PackageLicense>https://github.com/dahln/Timezoner/blob/master/LICENSE</PackageLicense>
     <RepositoryUrl>https://github.com/dahln/Timezoner</RepositoryUrl>
-    <RepositoryType>GitHUb</RepositoryType>
+    <RepositoryType>GitHub</RepositoryType>
     <Company />
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) 2021 dahln</Copyright>
     <PackageTags>timezone,timezones,time,zone,zones</PackageTags>
-    <Version>1.3.0</Version>
+    <Version>1.4.0</Version>
     <PackageReleaseNotes>Update to .NET 6</PackageReleaseNotes>
   </PropertyGroup>
 
