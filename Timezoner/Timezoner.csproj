@@ -1,20 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Authors>dahln</Authors>
+    <TargetFramework>net7.0</TargetFramework>
+    <Authors>shadowlings</Authors>
     <Description>A simple library to provide a list of time zones, providing an Id, Name, and Offset</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl></PackageProjectUrl>
-    <PackageLicense>https://github.com/dahln/Timezoner/blob/master/LICENSE</PackageLicense>
-    <RepositoryUrl>https://github.com/dahln/Timezoner</RepositoryUrl>
+    <PackageLicense>https://github.com/shadowlings/Timezoner/blob/master/LICENSE</PackageLicense>
+    <RepositoryUrl>https://github.com/shadowlings/Timezoner</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <Company />
     <NeutralLanguage>en</NeutralLanguage>
-    <Copyright>Copyright (c) 2021 dahln</Copyright>
+    <Copyright>Copyright (c) 2023 shadowlings</Copyright>
     <PackageTags>timezone,timezones,time,zone,zones</PackageTags>
-    <Version>1.4.0</Version>
-    <PackageReleaseNotes>Update to .NET 6</PackageReleaseNotes>
+    <Version>1.5.0</Version>
+    <PackageReleaseNotes>v1.5.0: Updated to .NET 7. Updated license and repo URL's to organization.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
