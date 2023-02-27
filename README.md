@@ -1,4 +1,5 @@
-[![.NET](https://github.com/dahln/Timezoner/actions/workflows/dotnet-nuget.yml/badge.svg)](https://github.com/dahln/Timezoner/actions/workflows/dotnet-nuget.yml)
+[![.NET CI/CD Nuget](https://github.com/shadowlings/Timezoner/actions/workflows/dotnet-nuget.yml/badge.svg)](https://github.com/shadowlings/Timezoner/actions/workflows/dotnet-nuget.yml)
+[![Azure Static Web Apps CI/CD](https://github.com/shadowlings/Timezoner/actions/workflows/azure-static-web-apps-zealous-island-09cfe4010.yml/badge.svg)](https://github.com/shadowlings/Timezoner/actions/workflows/azure-static-web-apps-zealous-island-09cfe4010.yml)
 
 # Timezoner
 A simple library to provide a list of time zones, providing an Id, Name, and Offset.
