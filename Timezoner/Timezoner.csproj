@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.5.1</Version>
-    <PackageReleaseNotes>v1.5.1: Updated organization publishing data</PackageReleaseNotes>
-    <TargetFramework>net7.0</TargetFramework>
+    <Version>1.6.0</Version>
+    <PackageReleaseNotes>v1.6.0: Update to .NET 8</PackageReleaseNotes>
+    <TargetFramework>net8.0</TargetFramework>
     <Authors>dahln</Authors>
     <Description>A simple library to provide a list of time zones, providing an Id, Name, and Offset</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
