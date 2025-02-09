@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.7.0</Version>
-    <PackageReleaseNotes>v1.7.0: Added .NET 9 support.</PackageReleaseNotes>
+    <Version>1.7.1</Version>
+    <PackageReleaseNotes>v1.7.1: Updated CI/CD process.</PackageReleaseNotes>
     <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <Authors>dahln</Authors>
     <Description>A simple library to provide a list of time zones, providing an Id, Name, and Offset</Description>
@@ -10,7 +10,7 @@
     <PackageLicense>https://github.com/dahln/Timezoner/blob/master/LICENSE</PackageLicense>
     <RepositoryUrl>https://github.com/dahln/Timezoner</RepositoryUrl>
     <PackageProjectUrl>https://github.com/dahln/Timezoner</PackageProjectUrl>
-    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) 2025 Dahln Farnes</Copyright>
     <PackageTags>timezone,timezones,time,zone,zones</PackageTags>
