@@ -10,6 +10,7 @@
     <PackageLicense>https://github.com/dahln/Timezoner/blob/master/LICENSE</PackageLicense>
     <RepositoryUrl>https://github.com/dahln/Timezoner</RepositoryUrl>
     <PackageProjectUrl>https://github.com/dahln/Timezoner</PackageProjectUrl>
+    <PackageReadmeFile>../README.md</PackageReadmeFile>
     <RepositoryType>GitHub</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
     <Copyright>Copyright (c) 2025 Dahln Farnes</Copyright>
