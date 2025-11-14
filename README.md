@@ -31,6 +31,13 @@ Install-Package Timezoner
 - ✅ Built for .NET 10.0
 - ✅ Zero dependencies
 
+## Methods
+
+- `GetTimezones()` - Returns a list of all available timezones
+- `GetTimezoneById(string id)` - Returns a specific timezone by its Id
+- `GetOffsetAsTimeSpan(string id)` - Returns the UTC offset for a timezone by its Id
+- `GetOffsetAsTimeSpan(Timezone zone)` - Returns the UTC offset for a timezone object
+
 ## Usage
 
 ```csharp
@@ -52,6 +59,8 @@ var offset = Timezoner.GetOffsetAsTimeSpan(timezone);
 See Timezoner in action: [Live Demo](https://zealous-island-09cfe4010.azurestaticapps.net/)
 
 The demo is a Blazor WebAssembly app, but the library can be used in any .NET application (Console, Web API, Desktop, etc.).
+
+> **Note:** The demo site currently runs on .NET 9 and references Timezoner v1.7.1 until Azure Static Web Apps natively supports .NET 10 in their build pipeline. We prefer to wait for official support rather than implement workarounds.
 
 ## Requirements
 
