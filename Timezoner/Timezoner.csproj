@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.7.1</Version>
-    <PackageReleaseNotes>v1.7.1: Updated CI/CD process.</PackageReleaseNotes>
+    <Version>2.0.0</Version>
+    <PackageReleaseNotes>v2.0.0: Upgraded to .NET 10.0 (breaking change - net8.0/net9.0 support removed, use v1.7.1 for previous frameworks). Enhanced NuGet package with README, SourceLink, and symbol packages.</PackageReleaseNotes>
     <TargetFramework>net10.0</TargetFramework>
     <Authors>dahln</Authors>
     <Description>A simple library to provide a list of time zones, providing an Id, Name, and Offset</Description>
