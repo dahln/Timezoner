@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Version>1.7.1</Version>
     <PackageReleaseNotes>v1.7.1: Updated CI/CD process.</PackageReleaseNotes>
-    <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net9.0;net8.0;net10.0</TargetFrameworks>
     <Authors>dahln</Authors>
     <Description>A simple library to provide a list of time zones, providing an Id, Name, and Offset</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
