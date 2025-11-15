@@ -7,6 +7,7 @@ A simple .NET library to provide a consistent list of time zones with Id, Name, 
 
 [![NuGet](https://img.shields.io/nuget/v/Timezoner.svg)](https://www.nuget.org/packages/Timezoner/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Timezoner.svg)](https://www.nuget.org/packages/Timezoner/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Why Timezoner?
 
